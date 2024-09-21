@@ -1,6 +1,6 @@
 //Task 1.
 // Дана строка "Node.js course". Виведіть в консоль довжину цієї строки.
-const word = "Node.js course"
+const word = "Node.js course".length
 
 console.log(word)
 
