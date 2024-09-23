@@ -12,6 +12,7 @@ console.log(word)
 // Вирішені задачки пушимо в створений бранч та додаємо мене в ревьювери
 
 let someNumber = 33
+//
 
 const multiNumberOfLength = (num: number): number => {
     return num * num.toString().length
