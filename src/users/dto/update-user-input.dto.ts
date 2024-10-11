@@ -1,6 +1,6 @@
 import {IsBoolean, IsInt, IsNotEmpty, IsString} from "class-validator";
 
-export class CreateUserDto {
+export class UpdateUserInputDto {
     @IsString()
     @IsNotEmpty()
     readonly firstName: string;
@@ -10,8 +10,10 @@ export class CreateUserDto {
     readonly lastName: string;
 
     @IsInt()
+    @IsNotEmpty()
     readonly age: number;
 
     @IsBoolean()
+    @IsNotEmpty()
     readonly isStudent: boolean;
 }
